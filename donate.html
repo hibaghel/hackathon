@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Upchaar</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <style type="text/css">
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #1C2331 !important;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="home.html" target="_blank">
+          <strong>Upchaar</strong>
+        </a>
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tips.html">Health Tips</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="emergency.html">Emergency<span class="badge badge-danger ml-2">!</span></a>
+            </li>
+   
+            <li class="nav-item">
+              <a class="nav-link" href="consultation.html">Consult</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nearby.html" >Nearby</a>
+            </li>
+          </ul>
+
+          <!-- Right -->
+          <ul class="navbar-nav nav-flex-icons">
+
+            <li class="nav-item">
+              <a href="accept.html" class="nav-link border border-light rounded"
+               >
+                <i class="fas fa-syringe blue-text pr-3"></i> Need Blood
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="donate.html" class="nav-link border border-light rounded"
+               >
+                <i class="fas fa-tint red-text pr-3"></i> Donate Blood
+              </a>
+            </li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+
+    <!-- Full Page Intro -->
+  <div class="view full-page-intro" style="background-image: url('https://www.activeiron.com/wp-content/uploads/2017/07/Blood-Donor.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+    <!-- Mask & flexbox options-->
+    <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+      <!-- Content -->
+      <div class="container">
+
+        <!--Grid row-->
+        <div class="row wow fadeIn">
+
+
+          <!--Grid column-->
+          <div class="col-md-6 col-xl-5 mb-4">
+
+            <!--Card-->
+            <div class="card">
+
+              <!--Card content-->
+              <div class="card-body">
+
+                <!-- Form -->
+                <form name="" method="POST" action="post.php">
+                  <!-- Heading -->
+                  <h3 class="dark-grey-text text-center">
+                    <strong>Save some lives, Donate Blood!!</strong>
+                  </h3>
+                  <hr>
+
+                  <div class="md-form">
+                    <i class="fa fa-user prefix grey-text"></i>
+                    <input type="text" name="Name" class="form-control" required>
+                    <label for="form3">Your name</label>
+                  </div>
+                  <div class="md-form">
+                    <i class="fas fa-phone-volume prefix grey-text"></i>
+                    <input type="text" name="Phone" class="form-control" required>
+                    <label for="form2" >Your Phone No</label>
+                  </div>
+                  <div class="md-form">
+                    <i class="fas fa-city prefix grey-text"></i>
+                    <input type="text" name="City" class="form-control" required>
+                    <label for="form2" >City</label>
+                  </div>
+                  <div class="md-form">
+                    <i class="fas fa-phone-volume prefix grey-text"></i>
+                    <input type="text" name="Age" class="form-control" required>
+                    <label for="form2" >Your Age</label>
+                  </div>
+                  <!-- Split button -->
+                  <div class="md-form">
+                  <i class="fas fa-genderless prefix grey-text"></i>&emsp;&emsp;
+                    Gender:  &emsp;&emsp;
+                    <select name="Gender">
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                    </select>
+                  </div>
+                  <div class="md-form">
+                  <i class="fas fa-tint prefix grey-text"></i>&emsp;&emsp;
+                    Blood Group:  &emsp;&emsp;
+                    <select name="Bloodgroup">
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    </select>
+                  </div>
+                  <div class="md-form">
+                    <i class="fas fa-ban prefix grey-text"></i>
+                    <textarea type="text" id="Disease" class="md-textarea" name="Disease" required></textarea>
+                    <label for="form8">Any chronic disease if any mention</label>
+                  </div>
+
+                  <div class="text-center">
+                    <button  type="submit" name="submit" >Submit</button>
+                  </div>
+
+                </form>
+                <!-- Form -->
+
+              </div>
+
+            </div>
+            <!--/.Card-->
+
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-6 mb-4 black-text text-center text-md-left">
+            <br>
+            <br>
+            <br>
+            <h1 class="display-4 font-weight-bold">Virtual Blood Bank</h1>
+            <p>
+              <strong>We help you save lives. Your blood directly goes to the patient that is our assurance.</strong>
+            </p>
+
+
+          </div>
+          <!--Grid column-->
+
+
+        </div>
+        <!--Grid row-->
+
+      </div>
+      <!-- Content -->
+
+    </div>
+    <!-- Mask & flexbox options-->
+
+  </div>
+  <!-- Full Page Intro -->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+
+    <!--Call to action-->
+    <div class="pt-4">
+      
+      <a class="btn btn-outline-white" href="aboutus.html" target="_blank" role="button">About us 
+        <i class="fas fa-temperature-low blue-text pr-3"></i>
+      </a>
+    </div>
+    <!--/.Call to action-->
+
+    <hr class="my-4">
+
+    <!-- Social icons -->
+    <div class="pb-4">
+      <a href="https://www.facebook.com/mdbootstrap" target="_blank">
+        <i class="fab fa-facebook-f mr-3"></i>
+      </a>
+
+      <a href="https://twitter.com/MDBootstrap" target="_blank">
+        <i class="fab fa-twitter mr-3"></i>
+      </a>
+
+      <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+        <i class="fab fa-youtube mr-3"></i>
+      </a>
+
+      <a href="https://plus.google.com/u/0/b/107863090883699620484" target="_blank">
+        <i class="fab fa-google-plus-g mr-3"></i>
+      </a>
+
+      <a href="https://dribbble.com/mdbootstrap" target="_blank">
+        <i class="fab fa-dribbble mr-3"></i>
+      </a>
+
+      <a href="https://pinterest.com/mdbootstrap" target="_blank">
+        <i class="fab fa-pinterest mr-3"></i>
+      </a>
+
+      <a href="https://github.com/mdbootstrap/bootstrap-material-design" target="_blank">
+        <i class="fab fa-github mr-3"></i>
+      </a>
+
+      <a href="http://codepen.io/mdbootstrap/" target="_blank">
+        <i class="fab fa-codepen mr-3"></i>
+      </a>
+    </div>
+    <!-- Social icons -->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/" target="_blank"> thunder_buddies </a>
+    </div>
+    <!--/.Copyright-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
+</body>
+
+</html>
