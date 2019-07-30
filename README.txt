@@ -1,1 +1,1 @@
-This was our hackathon work which we completed in 24 hours. This app gave us information about various medical emergencies and helped a patient in case of Emergency. The technology stack used was PHP, MySQL, Bootstrap(jquery) and chat.
+This was our hackathon work which we completed in 24 hours. This app gave us information about various medical emergencies and helped a patient in case of Emergency. The technology stack used was PHP, MySQL, Bootstrap(jquery) and chat(scaledrone API).
